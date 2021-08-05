@@ -1,0 +1,16 @@
+PODS:
+  - BulletinBoard (5.0.0)
+
+DEPENDENCIES:
+  - BulletinBoard
+
+SPEC REPOS:
+  trunk:
+    - BulletinBoard
+
+SPEC CHECKSUMS:
+  BulletinBoard: dba77053c2a7b64953f63073f7534165af2edd21
+
+PODFILE CHECKSUM: 53fd4970d53664a2ebbd094bb132c8a969746d5e
+
+COCOAPODS: 1.10.2

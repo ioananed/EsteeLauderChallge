@@ -1,0 +1,800 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03CA2CEB092A141305C6F2E1 /* Pods_ESTEELAUDER_ESTEELAUDERUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FA79CD7723E14AEA08B8AF9 /* Pods_ESTEELAUDER_ESTEELAUDERUITests.framework */; };
+		2BB36F9326BC921200B8CFA1 /* SixViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB36F9226BC921200B8CFA1 /* SixViewController.swift */; };
+		2BB36F9526BC938F00B8CFA1 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB36F9426BC938F00B8CFA1 /* ThirdViewController.swift */; };
+		2BB36F9726BC939E00B8CFA1 /* FourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB36F9626BC939E00B8CFA1 /* FourViewController.swift */; };
+		2BB36F9926BC93AF00B8CFA1 /* FiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB36F9826BC93AF00B8CFA1 /* FiveViewController.swift */; };
+		2BF0618026BC121700341EF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF0617F26BC121700341EF7 /* AppDelegate.swift */; };
+		2BF0618226BC121700341EF7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF0618126BC121700341EF7 /* SceneDelegate.swift */; };
+		2BF0618426BC121700341EF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF0618326BC121700341EF7 /* ViewController.swift */; };
+		2BF0618726BC121700341EF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BF0618526BC121700341EF7 /* Main.storyboard */; };
+		2BF0618A26BC121700341EF7 /* ESTEELAUDER.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2BF0618826BC121700341EF7 /* ESTEELAUDER.xcdatamodeld */; };
+		2BF0618C26BC121900341EF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BF0618B26BC121900341EF7 /* Assets.xcassets */; };
+		2BF0618F26BC121900341EF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BF0618D26BC121900341EF7 /* LaunchScreen.storyboard */; };
+		2BF0619A26BC121900341EF7 /* ESTEELAUDERTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF0619926BC121900341EF7 /* ESTEELAUDERTests.swift */; };
+		2BF061A526BC121900341EF7 /* ESTEELAUDERUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF061A426BC121900341EF7 /* ESTEELAUDERUITests.swift */; };
+		2BF061B326BC12D600341EF7 /* Video1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 2BF061B226BC12D600341EF7 /* Video1.mp4 */; };
+		2BF061B526BC173400341EF7 /* video3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 2BF061B426BC173400341EF7 /* video3.mp4 */; };
+		2BF061B726BC173C00341EF7 /* video4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 2BF061B626BC173C00341EF7 /* video4.mp4 */; };
+		2BF061B926BC174500341EF7 /* video2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 2BF061B826BC174500341EF7 /* video2.mp4 */; };
+		2BF061BB26BC174E00341EF7 /* video5.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 2BF061BA26BC174D00341EF7 /* video5.mp4 */; };
+		6636CC15AC8DD2DE25A60D83 /* Pods_ESTEELAUDER.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4F022398A6B2F7144FDC093 /* Pods_ESTEELAUDER.framework */; };
+		D49EBD1FA75580D15643E745 /* Pods_ESTEELAUDERTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2731B455BF3847C7F886E1E1 /* Pods_ESTEELAUDERTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2BF0619626BC121900341EF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BF0617426BC121700341EF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BF0617B26BC121700341EF7;
+			remoteInfo = ESTEELAUDER;
+		};
+		2BF061A126BC121900341EF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BF0617426BC121700341EF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BF0617B26BC121700341EF7;
+			remoteInfo = ESTEELAUDER;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		104B7C88BE40EE484C6120A9 /* Pods-ESTEELAUDERTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ESTEELAUDERTests.release.xcconfig"; path = "Target Support Files/Pods-ESTEELAUDERTests/Pods-ESTEELAUDERTests.release.xcconfig"; sourceTree = "<group>"; };
+		2731B455BF3847C7F886E1E1 /* Pods_ESTEELAUDERTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ESTEELAUDERTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BB36F9226BC921200B8CFA1 /* SixViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixViewController.swift; sourceTree = "<group>"; };
+		2BB36F9426BC938F00B8CFA1 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		2BB36F9626BC939E00B8CFA1 /* FourViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourViewController.swift; sourceTree = "<group>"; };
+		2BB36F9826BC93AF00B8CFA1 /* FiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiveViewController.swift; sourceTree = "<group>"; };
+		2BF0617C26BC121700341EF7 /* ESTEELAUDER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ESTEELAUDER.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BF0617F26BC121700341EF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2BF0618126BC121700341EF7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2BF0618326BC121700341EF7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2BF0618626BC121700341EF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2BF0618926BC121700341EF7 /* ESTEELAUDER.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ESTEELAUDER.xcdatamodel; sourceTree = "<group>"; };
+		2BF0618B26BC121900341EF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2BF0618E26BC121900341EF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2BF0619026BC121900341EF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BF0619526BC121900341EF7 /* ESTEELAUDERTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ESTEELAUDERTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BF0619926BC121900341EF7 /* ESTEELAUDERTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESTEELAUDERTests.swift; sourceTree = "<group>"; };
+		2BF0619B26BC121900341EF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BF061A026BC121900341EF7 /* ESTEELAUDERUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ESTEELAUDERUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BF061A426BC121900341EF7 /* ESTEELAUDERUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESTEELAUDERUITests.swift; sourceTree = "<group>"; };
+		2BF061A626BC121900341EF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BF061B226BC12D600341EF7 /* Video1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Video1.mp4; sourceTree = "<group>"; };
+		2BF061B426BC173400341EF7 /* video3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video3.mp4; sourceTree = "<group>"; };
+		2BF061B626BC173C00341EF7 /* video4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video4.mp4; sourceTree = "<group>"; };
+		2BF061B826BC174500341EF7 /* video2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video2.mp4; sourceTree = "<group>"; };
+		2BF061BA26BC174D00341EF7 /* video5.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video5.mp4; sourceTree = "<group>"; };
+		5AB513D3B48942B879BEE805 /* Pods-ESTEELAUDER.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ESTEELAUDER.debug.xcconfig"; path = "Target Support Files/Pods-ESTEELAUDER/Pods-ESTEELAUDER.debug.xcconfig"; sourceTree = "<group>"; };
+		6527CFE13E2DC42E870AE3F2 /* Pods-ESTEELAUDER.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ESTEELAUDER.release.xcconfig"; path = "Target Support Files/Pods-ESTEELAUDER/Pods-ESTEELAUDER.release.xcconfig"; sourceTree = "<group>"; };
+		9FA79CD7723E14AEA08B8AF9 /* Pods_ESTEELAUDER_ESTEELAUDERUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ESTEELAUDER_ESTEELAUDERUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A10C8C66E2FC43CFCBB70657 /* Pods-ESTEELAUDERTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ESTEELAUDERTests.debug.xcconfig"; path = "Target Support Files/Pods-ESTEELAUDERTests/Pods-ESTEELAUDERTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B4F022398A6B2F7144FDC093 /* Pods_ESTEELAUDER.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ESTEELAUDER.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D73AE58C4FF337B108A17AD9 /* Pods-ESTEELAUDER-ESTEELAUDERUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ESTEELAUDER-ESTEELAUDERUITests.debug.xcconfig"; path = "Target Support Files/Pods-ESTEELAUDER-ESTEELAUDERUITests/Pods-ESTEELAUDER-ESTEELAUDERUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D7A76EA840F9531963A83BF1 /* Pods-ESTEELAUDER-ESTEELAUDERUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ESTEELAUDER-ESTEELAUDERUITests.release.xcconfig"; path = "Target Support Files/Pods-ESTEELAUDER-ESTEELAUDERUITests/Pods-ESTEELAUDER-ESTEELAUDERUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BF0617926BC121700341EF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6636CC15AC8DD2DE25A60D83 /* Pods_ESTEELAUDER.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BF0619226BC121900341EF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D49EBD1FA75580D15643E745 /* Pods_ESTEELAUDERTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BF0619D26BC121900341EF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03CA2CEB092A141305C6F2E1 /* Pods_ESTEELAUDER_ESTEELAUDERUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BF0617326BC121700341EF7 = {
+			isa = PBXGroup;
+			children = (
+				2BF0617E26BC121700341EF7 /* ESTEELAUDER */,
+				2BF0619826BC121900341EF7 /* ESTEELAUDERTests */,
+				2BF061A326BC121900341EF7 /* ESTEELAUDERUITests */,
+				2BF0617D26BC121700341EF7 /* Products */,
+				737FF7CA594DCC9C15184F68 /* Pods */,
+				2DD3A470A82F8A978F97838B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2BF0617D26BC121700341EF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BF0617C26BC121700341EF7 /* ESTEELAUDER.app */,
+				2BF0619526BC121900341EF7 /* ESTEELAUDERTests.xctest */,
+				2BF061A026BC121900341EF7 /* ESTEELAUDERUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BF0617E26BC121700341EF7 /* ESTEELAUDER */ = {
+			isa = PBXGroup;
+			children = (
+				2BF061B226BC12D600341EF7 /* Video1.mp4 */,
+				2BF061B426BC173400341EF7 /* video3.mp4 */,
+				2BF061B626BC173C00341EF7 /* video4.mp4 */,
+				2BF061B826BC174500341EF7 /* video2.mp4 */,
+				2BF061BA26BC174D00341EF7 /* video5.mp4 */,
+				2BF0617F26BC121700341EF7 /* AppDelegate.swift */,
+				2BF0618126BC121700341EF7 /* SceneDelegate.swift */,
+				2BF0618326BC121700341EF7 /* ViewController.swift */,
+				2BF0618526BC121700341EF7 /* Main.storyboard */,
+				2BF0618B26BC121900341EF7 /* Assets.xcassets */,
+				2BF0618D26BC121900341EF7 /* LaunchScreen.storyboard */,
+				2BF0619026BC121900341EF7 /* Info.plist */,
+				2BF0618826BC121700341EF7 /* ESTEELAUDER.xcdatamodeld */,
+				2BB36F9226BC921200B8CFA1 /* SixViewController.swift */,
+				2BB36F9426BC938F00B8CFA1 /* ThirdViewController.swift */,
+				2BB36F9626BC939E00B8CFA1 /* FourViewController.swift */,
+				2BB36F9826BC93AF00B8CFA1 /* FiveViewController.swift */,
+			);
+			path = ESTEELAUDER;
+			sourceTree = "<group>";
+		};
+		2BF0619826BC121900341EF7 /* ESTEELAUDERTests */ = {
+			isa = PBXGroup;
+			children = (
+				2BF0619926BC121900341EF7 /* ESTEELAUDERTests.swift */,
+				2BF0619B26BC121900341EF7 /* Info.plist */,
+			);
+			path = ESTEELAUDERTests;
+			sourceTree = "<group>";
+		};
+		2BF061A326BC121900341EF7 /* ESTEELAUDERUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2BF061A426BC121900341EF7 /* ESTEELAUDERUITests.swift */,
+				2BF061A626BC121900341EF7 /* Info.plist */,
+			);
+			path = ESTEELAUDERUITests;
+			sourceTree = "<group>";
+		};
+		2DD3A470A82F8A978F97838B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4F022398A6B2F7144FDC093 /* Pods_ESTEELAUDER.framework */,
+				9FA79CD7723E14AEA08B8AF9 /* Pods_ESTEELAUDER_ESTEELAUDERUITests.framework */,
+				2731B455BF3847C7F886E1E1 /* Pods_ESTEELAUDERTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		737FF7CA594DCC9C15184F68 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5AB513D3B48942B879BEE805 /* Pods-ESTEELAUDER.debug.xcconfig */,
+				6527CFE13E2DC42E870AE3F2 /* Pods-ESTEELAUDER.release.xcconfig */,
+				D73AE58C4FF337B108A17AD9 /* Pods-ESTEELAUDER-ESTEELAUDERUITests.debug.xcconfig */,
+				D7A76EA840F9531963A83BF1 /* Pods-ESTEELAUDER-ESTEELAUDERUITests.release.xcconfig */,
+				A10C8C66E2FC43CFCBB70657 /* Pods-ESTEELAUDERTests.debug.xcconfig */,
+				104B7C88BE40EE484C6120A9 /* Pods-ESTEELAUDERTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BF0617B26BC121700341EF7 /* ESTEELAUDER */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BF061A926BC121900341EF7 /* Build configuration list for PBXNativeTarget "ESTEELAUDER" */;
+			buildPhases = (
+				DF7A8FBC6B7274E0C1E403CD /* [CP] Check Pods Manifest.lock */,
+				2BF0617826BC121700341EF7 /* Sources */,
+				2BF0617926BC121700341EF7 /* Frameworks */,
+				2BF0617A26BC121700341EF7 /* Resources */,
+				DB342DEB2D0D4C4509D512FD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ESTEELAUDER;
+			productName = ESTEELAUDER;
+			productReference = 2BF0617C26BC121700341EF7 /* ESTEELAUDER.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2BF0619426BC121900341EF7 /* ESTEELAUDERTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BF061AC26BC121900341EF7 /* Build configuration list for PBXNativeTarget "ESTEELAUDERTests" */;
+			buildPhases = (
+				87F40B4CA3E6E1D09EF4683F /* [CP] Check Pods Manifest.lock */,
+				2BF0619126BC121900341EF7 /* Sources */,
+				2BF0619226BC121900341EF7 /* Frameworks */,
+				2BF0619326BC121900341EF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BF0619726BC121900341EF7 /* PBXTargetDependency */,
+			);
+			name = ESTEELAUDERTests;
+			productName = ESTEELAUDERTests;
+			productReference = 2BF0619526BC121900341EF7 /* ESTEELAUDERTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2BF0619F26BC121900341EF7 /* ESTEELAUDERUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BF061AF26BC121900341EF7 /* Build configuration list for PBXNativeTarget "ESTEELAUDERUITests" */;
+			buildPhases = (
+				E0B7866DF7561E39CBC1987B /* [CP] Check Pods Manifest.lock */,
+				2BF0619C26BC121900341EF7 /* Sources */,
+				2BF0619D26BC121900341EF7 /* Frameworks */,
+				2BF0619E26BC121900341EF7 /* Resources */,
+				C8F2B41CAB4DF63CC4759594 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BF061A226BC121900341EF7 /* PBXTargetDependency */,
+			);
+			name = ESTEELAUDERUITests;
+			productName = ESTEELAUDERUITests;
+			productReference = 2BF061A026BC121900341EF7 /* ESTEELAUDERUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BF0617426BC121700341EF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					2BF0617B26BC121700341EF7 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					2BF0619426BC121900341EF7 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 2BF0617B26BC121700341EF7;
+					};
+					2BF0619F26BC121900341EF7 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 2BF0617B26BC121700341EF7;
+					};
+				};
+			};
+			buildConfigurationList = 2BF0617726BC121700341EF7 /* Build configuration list for PBXProject "ESTEELAUDER" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2BF0617326BC121700341EF7;
+			productRefGroup = 2BF0617D26BC121700341EF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BF0617B26BC121700341EF7 /* ESTEELAUDER */,
+				2BF0619426BC121900341EF7 /* ESTEELAUDERTests */,
+				2BF0619F26BC121900341EF7 /* ESTEELAUDERUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BF0617A26BC121700341EF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BF061B926BC174500341EF7 /* video2.mp4 in Resources */,
+				2BF061B726BC173C00341EF7 /* video4.mp4 in Resources */,
+				2BF0618F26BC121900341EF7 /* LaunchScreen.storyboard in Resources */,
+				2BF0618C26BC121900341EF7 /* Assets.xcassets in Resources */,
+				2BF0618726BC121700341EF7 /* Main.storyboard in Resources */,
+				2BF061BB26BC174E00341EF7 /* video5.mp4 in Resources */,
+				2BF061B526BC173400341EF7 /* video3.mp4 in Resources */,
+				2BF061B326BC12D600341EF7 /* Video1.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BF0619326BC121900341EF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BF0619E26BC121900341EF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		87F40B4CA3E6E1D09EF4683F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ESTEELAUDERTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8F2B41CAB4DF63CC4759594 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ESTEELAUDER-ESTEELAUDERUITests/Pods-ESTEELAUDER-ESTEELAUDERUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ESTEELAUDER-ESTEELAUDERUITests/Pods-ESTEELAUDER-ESTEELAUDERUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ESTEELAUDER-ESTEELAUDERUITests/Pods-ESTEELAUDER-ESTEELAUDERUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB342DEB2D0D4C4509D512FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ESTEELAUDER/Pods-ESTEELAUDER-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ESTEELAUDER/Pods-ESTEELAUDER-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ESTEELAUDER/Pods-ESTEELAUDER-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF7A8FBC6B7274E0C1E403CD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ESTEELAUDER-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0B7866DF7561E39CBC1987B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ESTEELAUDER-ESTEELAUDERUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BF0617826BC121700341EF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BB36F9326BC921200B8CFA1 /* SixViewController.swift in Sources */,
+				2BF0618426BC121700341EF7 /* ViewController.swift in Sources */,
+				2BF0618026BC121700341EF7 /* AppDelegate.swift in Sources */,
+				2BB36F9526BC938F00B8CFA1 /* ThirdViewController.swift in Sources */,
+				2BF0618226BC121700341EF7 /* SceneDelegate.swift in Sources */,
+				2BB36F9726BC939E00B8CFA1 /* FourViewController.swift in Sources */,
+				2BB36F9926BC93AF00B8CFA1 /* FiveViewController.swift in Sources */,
+				2BF0618A26BC121700341EF7 /* ESTEELAUDER.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BF0619126BC121900341EF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BF0619A26BC121900341EF7 /* ESTEELAUDERTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BF0619C26BC121900341EF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BF061A526BC121900341EF7 /* ESTEELAUDERUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2BF0619726BC121900341EF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BF0617B26BC121700341EF7 /* ESTEELAUDER */;
+			targetProxy = 2BF0619626BC121900341EF7 /* PBXContainerItemProxy */;
+		};
+		2BF061A226BC121900341EF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BF0617B26BC121700341EF7 /* ESTEELAUDER */;
+			targetProxy = 2BF061A126BC121900341EF7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2BF0618526BC121700341EF7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BF0618626BC121700341EF7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2BF0618D26BC121900341EF7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BF0618E26BC121900341EF7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2BF061A726BC121900341EF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2BF061A826BC121900341EF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2BF061AA26BC121900341EF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AB513D3B48942B879BEE805 /* Pods-ESTEELAUDER.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ESTEELAUDER/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Ioana.ESTEELAUDER;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2BF061AB26BC121900341EF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6527CFE13E2DC42E870AE3F2 /* Pods-ESTEELAUDER.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ESTEELAUDER/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Ioana.ESTEELAUDER;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2BF061AD26BC121900341EF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A10C8C66E2FC43CFCBB70657 /* Pods-ESTEELAUDERTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ESTEELAUDERTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Ioana.ESTEELAUDERTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ESTEELAUDER.app/ESTEELAUDER";
+			};
+			name = Debug;
+		};
+		2BF061AE26BC121900341EF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 104B7C88BE40EE484C6120A9 /* Pods-ESTEELAUDERTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ESTEELAUDERTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Ioana.ESTEELAUDERTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ESTEELAUDER.app/ESTEELAUDER";
+			};
+			name = Release;
+		};
+		2BF061B026BC121900341EF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D73AE58C4FF337B108A17AD9 /* Pods-ESTEELAUDER-ESTEELAUDERUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ESTEELAUDERUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Ioana.ESTEELAUDERUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ESTEELAUDER;
+			};
+			name = Debug;
+		};
+		2BF061B126BC121900341EF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7A76EA840F9531963A83BF1 /* Pods-ESTEELAUDER-ESTEELAUDERUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ESTEELAUDERUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Ioana.ESTEELAUDERUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ESTEELAUDER;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BF0617726BC121700341EF7 /* Build configuration list for PBXProject "ESTEELAUDER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BF061A726BC121900341EF7 /* Debug */,
+				2BF061A826BC121900341EF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BF061A926BC121900341EF7 /* Build configuration list for PBXNativeTarget "ESTEELAUDER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BF061AA26BC121900341EF7 /* Debug */,
+				2BF061AB26BC121900341EF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BF061AC26BC121900341EF7 /* Build configuration list for PBXNativeTarget "ESTEELAUDERTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BF061AD26BC121900341EF7 /* Debug */,
+				2BF061AE26BC121900341EF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BF061AF26BC121900341EF7 /* Build configuration list for PBXNativeTarget "ESTEELAUDERUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BF061B026BC121900341EF7 /* Debug */,
+				2BF061B126BC121900341EF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2BF0618826BC121700341EF7 /* ESTEELAUDER.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2BF0618926BC121700341EF7 /* ESTEELAUDER.xcdatamodel */,
+			);
+			currentVersion = 2BF0618926BC121700341EF7 /* ESTEELAUDER.xcdatamodel */;
+			path = ESTEELAUDER.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2BF0617426BC121700341EF7 /* Project object */;
+}
